@@ -7,14 +7,14 @@ import {
     CardContent,
     CardTitle
 } from "../../../components/card" 
-import Separator from "../../../components/separator"
+// import Separator from "../../../components/separator"
 import Input from "../../../components/input"
-import Link from "next/link"
+// import Link from "next/link"
 import { useRouter } from 'next/navigation';
 
 //react icons
-import{SiGmail} from "react-icons/si"
-import {FcGoogle} from "react-icons/fc"
+// import{SiGmail} from "react-icons/si"
+// import {FcGoogle} from "react-icons/fc"
 const SignIn = () => {
     const router = useRouter();
 

@@ -44,6 +44,6 @@
     className?: string;
     }
 
-    export const CardContent: React.FC<CardContentProps> = ({ children, className }) => {
+    export const CardContent: React.FC<CardContentProps> = ({ children }) => {
     return <div className="card-content">{children}</div>;
     };
